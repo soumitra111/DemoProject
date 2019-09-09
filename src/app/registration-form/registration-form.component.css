@@ -1,6 +1,14 @@
-:host {
-    border: 2px solid #e61717;
-    display: block;
-    padding: 12px;
-    margin-bottom: 12px;
-  }
+
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 7%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}

@@ -3,7 +3,7 @@ import { NG_VALUE_ACCESSOR, FormGroup, FormBuilder, ControlValueAccessor, Valida
 import { Subscription } from 'rxjs';
 
 import { matchingInputsValidator } from './validators';
-import {PasswordFormValues} from './password-form-values.interface';
+import {PasswordFormValues} from '../../models/password-form-values.interface';
 
 @Component({
   selector: 'app-password-form',

@@ -3,9 +3,11 @@
 <form [formGroup]="signupForm" (ngSubmit)="submit()">
   <app-profile-form formControlName="profile"></app-profile-form>
   <app-password-form formControlName="password"></app-password-form>
-  <button>Sign Up</button>
+  <br><br>
+  <button class="btn">Sign Up</button>
 </form>
 
+<br>
 <p>
   Form is {{signupForm.valid ? 'Valid' : 'Invalid'}}
 </p>

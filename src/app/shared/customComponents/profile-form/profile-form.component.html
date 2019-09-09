@@ -1,12 +1,17 @@
 <div [formGroup]="form">
-  <label for="first-name">First Name</label>
-  <input formControlName="firstName" id="first-name" />
+  <br>
+  <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" formControlName="firstName" id="first-name" placeholder="Firstname" name="usrnm">
+    &nbsp;&nbsp;<input formControlName="lastName" id="last-name" placeholder="Lastname" />
+  </div>
 
-  <label for="last-name">Last Name</label>
-  <input formControlName="lastName" id="last-name" />
-
-  <label for="email">Email</label>
-  <input formControlName="email" type="email" id="email" />
+  
+  <br>
+  <div class="input-container">
+  <i class="fa fa-envelope icon"></i>
+  <input formControlName="email" type="email" id="email" placeholder="Email"/>
+  </div>
   <div *ngIf="emailControl.touched && emailControl.hasError('required')" class="error">
     email is required
   </div>

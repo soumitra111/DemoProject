@@ -2,7 +2,7 @@ import { Component, forwardRef, OnDestroy } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR, FormBuilder, FormGroup, Validators, FormControl, NG_VALIDATORS } from '@angular/forms';
 import { Subscription } from 'rxjs';
 
-import {ProfileFormValues} from './profile-form-values.interface';
+import {ProfileFormValues} from '../../models/profile-form-values.interface';
 
 
 @Component({
